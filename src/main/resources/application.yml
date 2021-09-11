@@ -1,0 +1,28 @@
+spring.datasource:
+  url: jdbc:sqlserver://172.25.21.31;databaseName=previred_operacional
+  username: app_sitio
+  password: desarrollo
+  driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  dialect: org.hibernate.dialect.SQLServer2012Dialect
+camel:
+  component:
+    servlet:
+      mapping:
+        context-path: /services/*
+jss:
+  camel:
+    file:
+      enabled: false
+    seda:
+      enabled: false
+    weather:
+      enabled: false
+    wiretap:
+      enabled: false
+    hello:
+      enabled: false
+    rest:
+      enabled: true
+    rest-dsl:
+      enabled: true
+jwt.key: "YCR3qaG8GS178HWZOlNi9ExOKhUHajUnfuHER7+kz9h++7hlOOuFkJSZsj1XV5AsBXUuNHFUC3CnZz+gXORg6Q=="
