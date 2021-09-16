@@ -6,7 +6,7 @@ import lombok.Data;
 
 
 @Data
-public class Usuario {
+public class Usuario extends LoginRespuesta {
 	private int rut;
 	private String dv;
 	private String email;

@@ -26,3 +26,6 @@ jss:
     rest-dsl:
       enabled: true
 jwt.key: "YCR3qaG8GS178HWZOlNi9ExOKhUHajUnfuHER7+kz9h++7hlOOuFkJSZsj1XV5AsBXUuNHFUC3CnZz+gXORg6Q=="
+url:
+  login: "http://login-route-serv-trans-dev.infra.devops.previred/api-login/login"
+  refrescar: "http://login-route-serv-trans-dev.infra.devops.previred/api-login/login"
